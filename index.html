@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium meni</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1 class="title">Premium Cafe</h1>
+    <p class="subtitle">Premium ponuda • Kvalitet • Ambijent</p>
+
+    <div class="languages">
+        <span>BA</span>
+        <span>EN</span>
+        <span>DE</span>
+    </div>
+
+    <div class="highlight">
+        Happy Hour 08:00 – 11:00 <br>
+        <strong>Kafa 1 KM</strong>
+    </div>
+
+    <!-- TOPLI NAPICI -->
+    <div class="menu-section">
+        <h2>Topli napici</h2>
+
+        <div class="item" onclick="openItem('espresso')">
+            <div class="left">
+                <img src="images/espresso.jpg">
+                <span>Espresso <span class="badge best">BEST</span></span>
+            </div>
+            <span>2 KM</span>
+        </div>
+
+        <div class="item" onclick="openItem('latte')">
+            <div class="left">
+                <img src="images/latte.jpg">
+                <span>Latte <span class="badge new">NEW</span></span>
+            </div>
+            <span>3.5 KM</span>
+        </div>
+
+        <div class="item" onclick="openItem('capuccino')">
+            <div class="left">
+                <img src="images/cappuccino.jpg">
+                <span>Cappuccino</span>
+            </div>
+            <span>3 KM</span>
+        </div>
+    </div>
+
+    <!-- SOKOVI -->
+    <div class="menu-section">
+        <h2>Sokovi</h2>
+
+        <div class="item" onclick="openItem('orange')">
+            <div class="left">
+                <img src="images/orange.jpg">
+                <span>Sok od narandže</span>
+            </div>
+            <span>3 KM</span>
+        </div>
+
+        <div class="item" onclick="openItem('apple')">
+            <div class="left">
+                <img src="images/apple.jpg">
+                <span>Sok od jabuke</span>
+            </div>
+            <span>3 KM</span>
+        </div>
+    </div>
+
+    <!-- DESERTI -->
+    <div class="menu-section">
+        <h2>Deserti</h2>
+
+        <div class="item" onclick="openItem('cake')">
+            <div class="left">
+                <img src="images/cake.jpg">
+                <span>Chocolate Cake ⭐</span>
+            </div>
+            <span>5 KM</span>
+        </div>
+
+        <div class="item" onclick="openItem('cheesecake')">
+            <div class="left">
+                <img src="images/cheesecake.jpg">
+                <span>Cheesecake</span>
+            </div>
+            <span>5.5 KM</span>
+        </div>
+    </div>
+
+</div>
+
+<!-- MODAL -->
+<div id="itemModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeItem()">&times;</span>
+
+        <img id="itemImg">
+        <h3 id="itemTitle"></h3>
+        <p id="itemDesc"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
