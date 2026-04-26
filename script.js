@@ -7,6 +7,8 @@ const translations = {
         subtitle: "Premium ponuda • Kvalitet • Ambijent",
         highlight: "Happy Hour 08:00 – 11:00 <br><strong>Kafa 1 KM</strong>",
         hot: "Topli napici",
+        drink: "Sokovi",
+        desert: "Deserti",
         total: "Ukupno:",
 
         espresso: "Espresso",
@@ -35,6 +37,8 @@ const translations = {
         subtitle: "Premium offer • Quality • Atmosphere",
         highlight: "Happy Hour 08:00 – 11:00 <br><strong>Coffee 1 KM</strong>",
         hot: "Hot drinks",
+        drink: "Drinks",
+        desert: "Desserts",
         total: "Total:",
 
         espresso: "Espresso",
@@ -63,6 +67,8 @@ const translations = {
         subtitle: "Premium Angebot • Qualität • Atmosphäre",
         highlight: "Happy Hour 08:00 – 11:00 <br><strong>Kaffee 1 KM</strong>",
         hot: "Warme Getränke",
+        drink: "Getränke",
+        desert: "Nachtisch",
         total: "Gesamt:",
 
         espresso: "Espresso",
